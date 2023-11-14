@@ -548,10 +548,10 @@ body {
 }
 .btn-a:hover {
   color: rgb(164, 164, 164);
-}
+} 
 /* end admin  */
 
-/* rates  */
+/* rates   */
 
 .rate-container {
   height: 100%;
@@ -583,10 +583,10 @@ body {
   letter-spacing: 0;
   line-height: 19px;
   text-align: right;
-}
+} 
 /* end rate */
 
-/* user order */
+/* user order */ */
 .user-order {
   height: 100%;
   width: 100%;
@@ -608,7 +608,7 @@ body {
   letter-spacing: 0;
   line-height: 30px;
   text-align: right;
-}
+} 
 /* end user order */
 
 /* user Address */
@@ -617,9 +617,8 @@ body {
   height: 151px;
   width: 100%;
   border-radius: 7px;
-
   background-color: #ffffff;
-  box-shadow: 0 1px 2px 0 rgba(151, 151, 151, 0.5);
+  box-shadow: 2px 2px 2px 0 rgba(151, 151, 151, 0.5);
 }
 .btn-add-address {
   border: none;
@@ -633,13 +632,14 @@ body {
 /* user address */
 
 /* user card data */
+
 .user-data {
   height: 270px;
   width: 100% i !important;
   border-radius: 7px;
   background-color: #ffffff;
   box-shadow: 0 1px 2px 0 rgba(151, 151, 151, 0.5);
-}
+}  
 /* end user data */
 
 /* filter side style */

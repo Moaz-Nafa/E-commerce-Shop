@@ -7,6 +7,8 @@ import NavBarLogin from "./Components/Uitiltys/NavBarLogin";
 import {BrowserRouter, Routes, Route} from "react-router-dom" 
 import AllBrandaPage from "./Pages/Brand/AllBrandPage.js";
 import ShopProductsPage from "./Pages/Products/ShopProductsPage";
+import CartPage from "./Pages/Cart/CartPage";
+import ChoosePayMethoudPage from "./Pages/Checkout/ChoosePayMethoudPage.js";
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
             <Route path="/allCategory" element={<AllCategoryPage/>}/>
             <Route path="/allBrand" element={<AllBrandaPage/>}/>
             <Route path="/product" element={<ShopProductsPage/>}/>
+            <Route path="/cart" element={<CartPage />} />
+            <Route path="/order/paymethoud" element={<ChoosePayMethoudPage />} />
           </Routes>
         </BrowserRouter>
       <Footer/>
